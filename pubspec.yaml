@@ -1,0 +1,30 @@
+name: socalert
+description: "ระบบตอบสนองและรายงานเหตุการณ์ไซเบอร์"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.15.2
+  cloud_firestore: ^5.4.0
+  firebase_auth: ^5.3.0
+  form_field_validator: ^1.1.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ ลงทะเบียนโฟลเดอร์รูปภาพ ให้แอปมองเห็น
+  assets:
+    - assets/
+
+# ✅ ตั้งค่าไอคอนแอป
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#1976D2"
+  adaptive_icon_foreground: "assets/app_icon.png"

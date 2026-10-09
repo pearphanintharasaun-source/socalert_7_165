@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081544244970",
+    "project_id": "socalert-165",
+    "storage_bucket": "socalert-165.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081544244970:android:da3f747281a56834286193",
+        "android_client_info": {
+          "package_name": "com.example.socalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUs-vMKnmxRii-qrmEbXLlT0hcH9V9Dtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
